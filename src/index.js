@@ -132,7 +132,7 @@ export function createSymbol(combinations, Component) {
         data-sketch-symbol={
           `${combinations.componentName}/` +
           keys.join("") +
-          currentState(hoverState, focusState)
+          stateLabel(hoverState, focusState)
         }
         data-sketch-hover={hoverState}
         data-sketch-focus={focusState}
